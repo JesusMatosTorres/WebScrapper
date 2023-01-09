@@ -7,11 +7,12 @@ import org.jsoup.select.Elements;
 
 import java.io.IOException;
 
-public class HotelsInfor implements Ubi,Services,Comments,Ratings{
+public class HotelsInfor implements Information{
 
 
     public HotelsInfor() {}
 
+    @Override
     public void getComments(String href) throws IOException {
         Document doc = Jsoup.connect(href).get();
         Elements id3 = doc.getElementsByClass("db29ecfbe2 c688f151a2");
