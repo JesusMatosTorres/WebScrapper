@@ -4,21 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aa742867-75ea-474f-9957-047f863fae9a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/es/ulpgc/dacd/scraper/DataBase/DataBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/es/ulpgc/dacd/scraper/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/es/ulpgc/dacd/scraper/scraping/HotelsComments.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/es/ulpgc/dacd/scraper/scraping/HotelsInfor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/es/ulpgc/dacd/scraper/scraping/HotelsName.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/es/ulpgc/dacd/scraper/scraping/HotelsRating.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/es/ulpgc/dacd/scraper/scraping/HotelsServices.java" afterDir="false" />
+    <list default="true" id="aa742867-75ea-474f-9957-047f863fae9a" name="Changes" comment="primera version simple">
+      <change afterPath="$PROJECT_DIR$/src/main/java/es/ulpgc/dacd/scraper/scraping/Comments.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/es/ulpgc/dacd/scraper/scraping/Ratings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/es/ulpgc/dacd/scraper/scraping/Services.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/es/ulpgc/dacd/scraper/scraping/Ubi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/es/ulpgc/dacd/scraper/scraping/HotelsInfor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/es/ulpgc/dacd/scraper/scraping/HotelsInfor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/es/ulpgc/dacd/scraper/scraping/HotelsName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/es/ulpgc/dacd/scraper/scraping/HotelsName.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/es/ulpgc/dacd/scraper/scraping/HotelsServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/es/ulpgc/dacd/scraper/scraping/HotelsServices.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,10 +24,16 @@
       <list>
         <option value="Class" />
         <option value="module-info" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -57,7 +57,12 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.HotelsName">
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="es.ulpgc.dacd.scraper.scraping" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.HotelsInfor">
     <configuration name="HotelsComments" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="es.ulpgc.dacd.scraper.scraping.HotelsComments" />
       <module name="scrapper" />
@@ -125,10 +130,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HotelsInfor" />
+        <item itemvalue="Application.HotelsServices" />
         <item itemvalue="Application.HotelsName" />
         <item itemvalue="Application.HotelsRating" />
-        <item itemvalue="Application.HotelsServices" />
-        <item itemvalue="Application.HotelsInfor" />
         <item itemvalue="Application.HotelsComments" />
       </list>
     </recent_temporary>
@@ -142,6 +147,14 @@
       <option name="presentableId" value="Default" />
       <updated>1669037082093</updated>
     </task>
+    <task id="LOCAL-00001" summary="primera version simple">
+      <created>1673285752740</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1673285752740</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -154,5 +167,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="primera version simple" />
+    <option name="LAST_COMMIT_MESSAGE" value="primera version simple" />
   </component>
 </project>

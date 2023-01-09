@@ -18,7 +18,8 @@ public class HotelsName {
         String url;
         DataBase db = new DataBase();
         db.createTable();
-        for (int i = 0; i < 1; i++) {
+        for (int i = 0; i < 2; i++) {
+            sleep(1000);
             page += 25;
             url = html + page;
             Document doc = Jsoup.connect(url).get();
@@ -29,6 +30,6 @@ public class HotelsName {
             }
             sleep(1000);
         }
-        System.out.println(db.getUrl().toString());
+        //System.out.println(db.getUrl().toString());
     }
 }
