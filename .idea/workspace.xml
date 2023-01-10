@@ -4,15 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aa742867-75ea-474f-9957-047f863fae9a" name="Changes" comment="idea muchas interfaces">
-      <change afterPath="$PROJECT_DIR$/src/main/java/es/ulpgc/dacd/scraper/scraping/Information.java" afterDir="false" />
+    <list default="true" id="aa742867-75ea-474f-9957-047f863fae9a" name="Changes" comment="idea una interfaz1">
+      <change afterPath="$PROJECT_DIR$/src/main/java/es/ulpgc/dacd/scraper/scraping/Names.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/es/ulpgc/dacd/scraper/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/es/ulpgc/dacd/scraper/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/es/ulpgc/dacd/scraper/scraping/Comments.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/es/ulpgc/dacd/scraper/scraping/HotelsComments.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/es/ulpgc/dacd/scraper/scraping/HotelsInfor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/es/ulpgc/dacd/scraper/scraping/HotelsInfor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/es/ulpgc/dacd/scraper/scraping/Ratings.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/es/ulpgc/dacd/scraper/scraping/Services.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/es/ulpgc/dacd/scraper/scraping/Ubi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/es/ulpgc/dacd/scraper/scraping/HotelsName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/es/ulpgc/dacd/scraper/scraping/HotelsName.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/es/ulpgc/dacd/scraper/scraping/HotelsRating.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/es/ulpgc/dacd/scraper/scraping/HotelsServices.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/es/ulpgc/dacd/scraper/scraping/Information.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/es/ulpgc/dacd/scraper/scraping/Information.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +32,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="way" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -161,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673288448726</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="idea una interfaz">
+      <created>1673292675681</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1673292675681</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -178,6 +186,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="primera version simple" />
     <MESSAGE value="idea muchas interfaces" />
-    <option name="LAST_COMMIT_MESSAGE" value="idea muchas interfaces" />
+    <MESSAGE value="idea una interfaz" />
+    <option name="LAST_COMMIT_MESSAGE" value="idea una interfaz" />
   </component>
 </project>

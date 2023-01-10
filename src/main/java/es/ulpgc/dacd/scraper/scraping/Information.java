@@ -4,11 +4,11 @@ import java.io.IOException;
 
 public interface Information {
 
-    void getComments(String href) throws IOException;
+    void getComments();
 
-    void getRatings(String href) throws IOException;
+    void getRatings();
 
-    void getServices(String href) throws IOException;
+    void getServices();
 
-    void getUbi(String href) throws IOException;
+    void getUbi();
 }
