@@ -1,12 +1,14 @@
 package es.ulpgc.dacd.scraper.scraping;
 
+import java.util.ArrayList;
+
 public interface Information {
 
-    String getComments();
+    ArrayList<String> getComments();
 
-    String getRatings();
+    ArrayList<String> getRatings();
 
-    String getServices();
+    ArrayList<String> getServices();
 
-    String getUbi();
+    ArrayList<String> getUbi();
 }

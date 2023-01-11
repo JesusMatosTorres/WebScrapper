@@ -18,7 +18,7 @@ public class HotelsName implements NamesAndUrls {
 
     public HotelsName(String html) throws IOException {
         Hotels hotels = new Hotels();
-        doc = Jsoup.connect(html).get();
+        doc = Jsoup.connect(html).userAgent("Chrome5.0").get();
         Elements id = doc.getElementsByClass("a4225678b2");
         for(Element e:id){
             hotels.setName(e.getElementsByClass("fcab3ed991 a23c043802").text(),

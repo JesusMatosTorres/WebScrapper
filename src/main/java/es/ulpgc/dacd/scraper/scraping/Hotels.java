@@ -4,11 +4,6 @@ public class Hotels {
     public String name;
     public String html;
 
-    public Hotels(String name, String html) {
-        this.name = name;
-        this.html = html;
-    }
-
     public Hotels() {
     }
 

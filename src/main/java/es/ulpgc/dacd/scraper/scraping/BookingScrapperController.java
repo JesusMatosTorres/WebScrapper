@@ -5,6 +5,7 @@ import com.google.gson.Gson;
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Set;
 
 public class BookingScrapperController {
 
@@ -18,18 +19,18 @@ public class BookingScrapperController {
 
     }
 
-    public String returnHotelsName() {
+    public Set<String> returnHotelsName() {
         String names = gson.toJson(mapNames.keySet());
-        return names;
+        return mapNames.keySet();
     }
 
     public String returnAllStats(String name) throws IOException {
         String url = mapNames.get(name);
         HotelsInfor hotelsInfor = new HotelsInfor(url);
-        mapInfor.put("Ubi", hotelsInfor.getUbi());
-        mapInfor.put("Comments", hotelsInfor.getComments());
-        mapInfor.put("Ratings", hotelsInfor.getRatings());
-        mapInfor.put("Services", hotelsInfor.getServices());
+        mapInfor.put("Ubi", gson.toJson(hotelsInfor.getUbi()));
+        mapInfor.put("Comments", gson.toJson(hotelsInfor.getComments()));
+        mapInfor.put("Ratings", gson.toJson(hotelsInfor.getRatings()));
+        mapInfor.put("Services", gson.toJson(hotelsInfor.getServices()));
         return gson.toJson(mapInfor);
     }
 

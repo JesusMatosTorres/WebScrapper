@@ -4,17 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aa742867-75ea-474f-9957-047f863fae9a" name="Changes" comment="mejor control de excepciones">
-      <change afterPath="$PROJECT_DIR$/src/main/java/es/ulpgc/dacd/scraper/scraping/BookingScrapperController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/es/ulpgc/dacd/scraper/scraping/Hotels.java" afterDir="false" />
+    <list default="true" id="aa742867-75ea-474f-9957-047f863fae9a" name="Changes" comment="return hotelsnames y probando soluciones para hotelsinfo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/es/ulpgc/dacd/scraper/DataBase/DataBase.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/es/ulpgc/dacd/scraper/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/es/ulpgc/dacd/scraper/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/es/ulpgc/dacd/scraper/scraping/BookingScrapperController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/es/ulpgc/dacd/scraper/scraping/BookingScrapperController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/es/ulpgc/dacd/scraper/scraping/Hotels.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/es/ulpgc/dacd/scraper/scraping/Hotels.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/es/ulpgc/dacd/scraper/scraping/HotelsInfor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/es/ulpgc/dacd/scraper/scraping/HotelsInfor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/es/ulpgc/dacd/scraper/scraping/HotelsName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/es/ulpgc/dacd/scraper/scraping/HotelsName.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/es/ulpgc/dacd/scraper/scraping/Information.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/es/ulpgc/dacd/scraper/scraping/Information.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/es/ulpgc/dacd/scraper/scraping/Names.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/es/ulpgc/dacd/scraper/scraping/NamesAndUrls.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673346791719</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="return hotelsnames y probando soluciones para hotelsinfo">
+      <created>1673466786738</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1673466786738</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -196,6 +199,7 @@
     <MESSAGE value="idea muchas interfaces" />
     <MESSAGE value="idea una interfaz" />
     <MESSAGE value="mejor control de excepciones" />
-    <option name="LAST_COMMIT_MESSAGE" value="mejor control de excepciones" />
+    <MESSAGE value="return hotelsnames y probando soluciones para hotelsinfo" />
+    <option name="LAST_COMMIT_MESSAGE" value="return hotelsnames y probando soluciones para hotelsinfo" />
   </component>
 </project>
