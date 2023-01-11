@@ -1,14 +1,12 @@
 package es.ulpgc.dacd.scraper.scraping;
 
-import java.io.IOException;
-
 public interface Information {
 
-    void getComments();
+    String getComments();
 
-    void getRatings();
+    String getRatings();
 
-    void getServices();
+    String getServices();
 
-    void getUbi();
+    String getUbi();
 }
