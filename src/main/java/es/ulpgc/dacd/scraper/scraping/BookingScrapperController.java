@@ -3,38 +3,47 @@ package es.ulpgc.dacd.scraper.scraping;
 import com.google.gson.Gson;
 
 import java.io.IOException;
-import java.util.HashMap;
+import java.util.ArrayList;
 import java.util.Map;
-import java.util.Set;
 
-public class BookingScrapperController {
+public class BookingScrapperController implements ScrapperInterface{
 
     public Map<String, String> mapNames;
-    public Map<String, String> mapInfor = new HashMap<>();
+    public ArrayList<String> arrayInformation;
     Gson gson = new Gson();
 
     public BookingScrapperController(String html) throws IOException {
         HotelsName names = new HotelsName(html);
         this.mapNames = names.getHotelsName();
-
     }
 
-    public Set<String> returnHotelsName() {
-        String names = gson.toJson(mapNames.keySet());
-        return mapNames.keySet();
+    public String returnHotelsName() {
+        return gson.toJson(mapNames.keySet());
     }
 
-    public String returnAllStats(String name) throws IOException {
-        String url = mapNames.get(name);
-        HotelsInfor hotelsInfor = new HotelsInfor(url);
-        mapInfor.put("Ubi", gson.toJson(hotelsInfor.getUbi()));
-        mapInfor.put("Comments", gson.toJson(hotelsInfor.getComments()));
-        mapInfor.put("Ratings", gson.toJson(hotelsInfor.getRatings()));
-        mapInfor.put("Services", gson.toJson(hotelsInfor.getServices()));
-        return gson.toJson(mapInfor);
+    public String returnUbi(String name) throws IOException {
+        HotelsInfor hotelsInfor = new HotelsInfor(mapNames.get(name));
+        ArrayList<String> strings = hotelsInfor.getUbi();
+        return gson.toJson(strings);
     }
 
+    public String returnComments(String name) throws IOException {
+        HotelsInfor hotelsInfor = new HotelsInfor(mapNames.get(name));
+        ArrayList<String> strings = hotelsInfor.getComments();
+        return gson.toJson(strings);
+    }
 
+    public String returnRatings(String name) throws IOException {
+        HotelsInfor hotelsInfor = new HotelsInfor(mapNames.get(name));
+        ArrayList<String> strings = hotelsInfor.getRatings();
+        return gson.toJson(strings);
+    }
+
+    public String returnServices(String name) throws IOException {
+        HotelsInfor hotelsInfor = new HotelsInfor(mapNames.get(name));
+        ArrayList<String> strings = hotelsInfor.getServices();
+        return gson.toJson(strings);
+    }
 
 }
 

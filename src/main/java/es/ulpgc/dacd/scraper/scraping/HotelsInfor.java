@@ -15,7 +15,7 @@ public class HotelsInfor implements Information{
     Gson gson;
 
     public HotelsInfor(String href) throws IOException {
-        this.doc = Jsoup.connect(href).userAgent("Chrome5.0").get();
+        this.doc = Jsoup.connect(href).userAgent("Chrome/5.0").get();
         gson = new Gson();
     }
 
@@ -35,7 +35,7 @@ public class HotelsInfor implements Information{
         Elements id4 = doc.getElementsByClass("a1b3f50dcd b2fe1a41c3 a1f3ecff04 e187349485 d19ba76520");
         for (Element e : id4) {
             ratings.add(e.getElementsByClass("b1e6dd8416 aacd9d0b0a").text() +
-                    " " + e.getElementsByClass("ee746850b6 b8eef6afe1").text());
+                    ": " + e.getElementsByClass("ee746850b6 b8eef6afe1").text());
         }
         return ratings;
     }

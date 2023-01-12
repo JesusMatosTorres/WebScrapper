@@ -4,13 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aa742867-75ea-474f-9957-047f863fae9a" name="Changes" comment="return hotelsnames y probando soluciones para hotelsinfo">
+    <list default="true" id="aa742867-75ea-474f-9957-047f863fae9a" name="Changes" comment="solucionado los returns, problema con el gson de vuelta">
+      <change afterPath="$PROJECT_DIR$/src/main/java/es/ulpgc/dacd/scraper/API/Api.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/es/ulpgc/dacd/scraper/scraping/ScrapperInterface.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/es/ulpgc/dacd/scraper/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/es/ulpgc/dacd/scraper/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/es/ulpgc/dacd/scraper/scraping/BookingScrapperController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/es/ulpgc/dacd/scraper/scraping/BookingScrapperController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/es/ulpgc/dacd/scraper/scraping/Hotels.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/es/ulpgc/dacd/scraper/scraping/Hotels.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/es/ulpgc/dacd/scraper/scraping/HotelsInfor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/es/ulpgc/dacd/scraper/scraping/HotelsInfor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/es/ulpgc/dacd/scraper/scraping/Information.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/es/ulpgc/dacd/scraper/scraping/Information.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +22,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="module-info" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -48,7 +49,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/jesus/IdeaProjects/prueba1",
+    "last_opened_file_path": "C:/Users/jesus/Desktop/UNI/SEGUNDO/DACD/rest-api",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -180,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673466786738</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="solucionado los returns, problema con el gson de vuelta">
+      <created>1673478708952</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1673478708952</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -200,6 +208,7 @@
     <MESSAGE value="idea una interfaz" />
     <MESSAGE value="mejor control de excepciones" />
     <MESSAGE value="return hotelsnames y probando soluciones para hotelsinfo" />
-    <option name="LAST_COMMIT_MESSAGE" value="return hotelsnames y probando soluciones para hotelsinfo" />
+    <MESSAGE value="solucionado los returns, problema con el gson de vuelta" />
+    <option name="LAST_COMMIT_MESSAGE" value="solucionado los returns, problema con el gson de vuelta" />
   </component>
 </project>
