@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aa742867-75ea-474f-9957-047f863fae9a" name="Changes" comment="solucionado los returns, problema con el gson de vuelta">
-      <change afterPath="$PROJECT_DIR$/src/main/java/es/ulpgc/dacd/scraper/API/Api.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/es/ulpgc/dacd/scraper/scraping/ScrapperInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="aa742867-75ea-474f-9957-047f863fae9a" name="Changes" comment="implementacion final de la api">
+      <change beforePath="$PROJECT_DIR$/src/main/java/es/ulpgc/dacd/scraper/API/Api.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/es/ulpgc/dacd/scraper/API/Api.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/es/ulpgc/dacd/scraper/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/es/ulpgc/dacd/scraper/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/es/ulpgc/dacd/scraper/scraping/BookingScrapperController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/es/ulpgc/dacd/scraper/scraping/BookingScrapperController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/es/ulpgc/dacd/scraper/scraping/HotelsInfor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/es/ulpgc/dacd/scraper/scraping/HotelsInfor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -188,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673478708952</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="implementacion final de la api">
+      <created>1673536023232</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1673536023232</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -209,6 +211,7 @@
     <MESSAGE value="mejor control de excepciones" />
     <MESSAGE value="return hotelsnames y probando soluciones para hotelsinfo" />
     <MESSAGE value="solucionado los returns, problema con el gson de vuelta" />
-    <option name="LAST_COMMIT_MESSAGE" value="solucionado los returns, problema con el gson de vuelta" />
+    <MESSAGE value="implementacion final de la api" />
+    <option name="LAST_COMMIT_MESSAGE" value="implementacion final de la api" />
   </component>
 </project>

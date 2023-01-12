@@ -9,7 +9,6 @@ import static spark.Spark.get;
 public class Api {
     public Api(String html) throws IOException {
         BookingScrapperController scrapper = new BookingScrapperController(html);
-
         get("/hotels", (req, res) -> scrapper.returnHotelsName());
 
         get("/hotels/:name", (req, res) -> {
